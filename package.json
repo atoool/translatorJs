@@ -10,7 +10,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://translatejs.herokuapp.com/"
+    "url": "https://translate-locale.herokuapp.com/"
   },
   "dependencies": {
     "chrome-remote-interface": "^0.30.0",
