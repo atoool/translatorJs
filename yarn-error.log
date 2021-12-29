@@ -1,0 +1,69 @@
+Arguments: 
+  /usr/local/Cellar/node/16.6.1/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add fs Blob DataTransfer File Event
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/athulmohan/Library/Android/sdk/emulator:/Users/athulmohan/Library/Android/sdk/tools:/Users/athulmohan/Library/Android/sdk/tools/bin:/Users/athulmohan/Library/Android/sdk/platform-tools:/Users/athulmohan/Library/Android/sdk/emulator:/Users/athulmohan/Library/Android/sdk/tools:/Users/athulmohan/Library/Android/sdk/tools/bin:/Users/athulmohan/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.6.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/DataTransfer: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:66988:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:140749:22)
+      at Request.emit (node:events:394:28)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:141721:10)
+      at Request.emit (node:events:394:28)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:141643:12)
+      at Object.onceWrapper (node:events:513:28)
+      at IncomingMessage.emit (node:events:406:35)
+      at endReadableNT (node:internal/streams/readable:1331:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "riafy-store-server",
+    "version": "1.0.8",
+    "description": "turn google play scraper into a RESTful API",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "author": "Athul",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "https://riafy-app-server.herokuapp.com/"
+    },
+    "dependencies": {
+      "chrome-remote-interface": "^0.30.0",
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "puppeteer": "^10.0.0",
+      "puppeteer-extra": "^3.1.18",
+      "puppeteer-extra-plugin-adblocker": "^2.11.11",
+      "puppeteer-extra-plugin-stealth": "^2.7.8",
+      "user-agents": "^1.0.663"
+    },
+    "devDependencies": {
+      "eslint": "^7.15.0",
+      "eslint-config-semistandard": "^15.0.1",
+      "eslint-config-standard": "^16.0.2",
+      "eslint-plugin-import": "^2.22.1",
+      "eslint-plugin-node": "^11.1.0",
+      "eslint-plugin-promise": "^4.2.1",
+      "eslint-plugin-standard": "^4.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
